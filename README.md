@@ -56,7 +56,7 @@ print(f'Root password: {password}')
    ![Imgur](https://i.imgur.com/TlcbPdI.png)
     
 ### Goto [ngrok dashboard](https://dashboard.ngrok.com) and setup an account(if not already have).
-    * What is ngrok you ask?
+   * What is ngrok you ask?
         * in simpl terms...
    ![Imgur](https://i.imgur.com/TN4ckcS.png)
         * in complex words...
