@@ -1,10 +1,10 @@
 # ssh-into-google-colab
-### Ever wondered how leverage the computing power of  google colab in your local shell?
+### Ever wondered how to leverage the computing power of  google colab in your local shell?
 The following code does exactly that!
 And the best part... you get root access to the entire VM!
 
 * First log in and create a new notebook in [Google Colab](https://colab.research.google.com)
-[Create New notebook](https://i.imgur.com/Sx7gUDj.png)
+![Create New notebook](https://i.imgur.com/Sx7gUDj.png)
 * Copy and paste the following code in the notebook.
 
 ### This will install **openssh-server** for the backend.
