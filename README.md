@@ -53,26 +53,26 @@ with urllib.request.urlopen('http://localhost:4040/api/tunnels') as response:
 print(f'Root password: {password}')
 ```
     * This will ask for an Authtoken. Well ok, now where do i get that? Read on..
-    [Imgur](https://i.imgur.com/TlcbPdI.png)
+   ![Imgur](https://i.imgur.com/TlcbPdI.png)
     
 ### Goto [ngrok dashboard](https://dashboard.ngrok.com) and setup an account(if not already have).
     * What is ngrok you ask?
-        >> in simpl terms...
-        [Imgur](https://i.imgur.com/TN4ckcS.png)
-        >> in complex words...
-        [ngrok](https://i.imgur.com/5IfrRRr.png)
+        * in simpl terms...
+   ![Imgur](https://i.imgur.com/TN4ckcS.png)
+        * in complex words...
+   ![ngrok](https://i.imgur.com/5IfrRRr.png)
     * Click "Your Authtoken" on left pane.
-        [Imgur](https://i.imgur.com/TMwJllg.png)
+   ![Imgur](https://i.imgur.com/TMwJllg.png)
     * Copy the Authtoken that appears(you're gonna need that!).
 
 ### Last few steps!!
     * Paste the copied Authtoken. (If for some reasons it fails, run it again)
 ### Ta da! And we're done here! You should be greeted with this message now.
-    [Imgur](https://i.imgur.com/KVnKh3F.png)
+   ![Imgur](https://i.imgur.com/KVnKh3F.png)
 
 ### Now just head over to your terminal and use those credentials to ssh into colab!!
-    [Imgur](https://i.imgur.com/7tzdlqA.png)
+   ![Imgur](https://i.imgur.com/7tzdlqA.png)
 
-    [Imgur](https://i.imgur.com/syQrCmy.png)
+   ![Imgur](https://i.imgur.com/syQrCmy.png)
 
 ### Bonus! You can also attach your google drive(and Mega drives too!) with Google colab!!
