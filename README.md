@@ -11,12 +11,14 @@ And the best part... you get root access to the entire VM!
 ```
 !sudo apt install openssh-server
 ```
-### Now to Google Colab notebook. Copy and paste the following code and run. This will connect colab backend to ngrok tunnel.
+### Now go to Google Colab notebook. Copy and paste the following code and run. This will connect colab backend to ngrok tunnel.
 ```
 import random, string, urllib.request, json, getpass
 
 #Generate root password
 password = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(20))
+#Or use your custom password ;) easier ikr!
+# password = 'plaintext'
 
 #Download ngrok
 ! wget -q -c -nc https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
@@ -39,6 +41,8 @@ get_ipython().system_raw('/usr/sbin/sshd -D &')
 #Ask token
 print("Copy authtoken from https://dashboard.ngrok.com/auth")
 authtoken = getpass.getpass()
+#or you can directly assing authtoken here
+# authtoken = "..."
 
 #Create tunnel
 get_ipython().system_raw('./ngrok authtoken $authtoken && ./ngrok tcp 22 &')
