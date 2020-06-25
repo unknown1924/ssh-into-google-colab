@@ -3,6 +3,8 @@
 The following code does exactly that!
 And the best part... you get root access to the entire VM!
 
+Follow this link to know more: https://stackoverflow.com/questions/48459804/how-can-i-ssh-to-google-colaboratory-vm
+
 * First log in and create a new notebook in [Google Colab](https://colab.research.google.com)
 ![Create New notebook](https://i.imgur.com/Sx7gUDj.png)
 * Copy and paste the following code in the notebook.
